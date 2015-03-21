@@ -9,6 +9,8 @@
 ## This function creates a special matrix or "container" that outlines a list of functions that will store and retrieve the 
 ## matrix as well as the inverse matrix calculation. 
 
+
+
 makeCacheMatrix <- function(x = matrix()) { ## make sure the given set of values will be a matrix
        
         ## cached inverse matrix will be stored in "value" 
